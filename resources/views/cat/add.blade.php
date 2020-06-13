@@ -42,6 +42,31 @@
                                     <small class="text-danger"> {{$errors->first('name')}}</small>
                             @endif
                         </div>
+
+                        <div class="form-group">
+                            <label for="cat_name">Number of Questions:</label>
+                            <input type="text" class="form-control" id="cat_name" name="name">
+                              @if($errors->has('name'))
+                                      <!-- small class="text-danger"> {{$errors->first('name')}}</small --!>
+                              @endif
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cat_name">Duration:</label>
+                            <input type="text" class="form-control" id="cat_name" name="name">
+                              @if($errors->has('name'))
+                                      <!-- small class="text-danger"> {{$errors->first('name')}}</small --!>
+                              @endif
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="cat_name">Join ID:</label>
+                            <input type="text" class="form-control" id="cat_name" name="name">
+                              @if($errors->has('name'))
+                                      <!--small class="text-danger"> {{$errors->first('name')}}</small --!>
+                              @endif
+                        </div>
                        
                         <button type="submit" class="btn btn-primary">Submit</button>
                        
