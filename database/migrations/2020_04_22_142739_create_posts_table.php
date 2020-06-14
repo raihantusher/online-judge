@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->id();
             $table->string("title");
             $table->longText('body');
-
+            $table->longText("question_template");
             $table->foreignId("user_id");
             $table->foreignId("category_id");
 
