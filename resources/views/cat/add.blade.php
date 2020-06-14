@@ -45,7 +45,7 @@
 
                         <div class="form-group">
                             <label for="cat_name">Number of Questions:</label>
-                            <input type="text" class="form-control" id="cat_name" name="name">
+                            <input type="text" class="form-control" id="cat_name" name="">
                               @if($errors->has('name'))
                                       <!-- small class="text-danger"> {{$errors->first('name')}}</small --!>
                               @endif
@@ -53,7 +53,7 @@
 
                         <div class="form-group">
                             <label for="cat_name">Duration:</label>
-                            <input type="text" class="form-control" id="cat_name" name="name">
+                            <input type="text" class="form-control" id="cat_name" name="">
                               @if($errors->has('name'))
                                       <!-- small class="text-danger"> {{$errors->first('name')}}</small --!>
                               @endif
@@ -62,7 +62,7 @@
                         
                         <div class="form-group">
                             <label for="cat_name">Join ID:</label>
-                            <input type="text" class="form-control" id="cat_name" name="name">
+                            <input type="text" class="form-control" id="cat_name" name="">
                               @if($errors->has('name'))
                                       <!--small class="text-danger"> {{$errors->first('name')}}</small --!>
                               @endif
