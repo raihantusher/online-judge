@@ -78,11 +78,12 @@
                     <div class="col-8">
                           @if(session()->has('msg'))
                                 <div class="alert alert-primary text-center"><h4>{{session()->get("msg")}}<h4></div>
-                        @endif
+                          @endif
                     </div>
                 </div>
+            
+                @yield('content')
             </div>
-            @yield('content')
         </main>
     </div>
 </body>
