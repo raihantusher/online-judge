@@ -30,6 +30,13 @@
                           
                           <textarea class="form-control" id="article" rows="3" name="body"></textarea>
                         </div>
+
+                        <div class="form-group">
+                          <label for="article">Question Tempalate</label>
+                          
+                          <textarea class="form-control" id="article" rows="3" name=""></textarea>
+                        </div>
+
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Category</label>
                             <select class="form-control" id="exampleFormControlSelect1" name="cat_id">
